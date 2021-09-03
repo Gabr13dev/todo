@@ -1,0 +1,48 @@
+:root {
+  --blue: #273FAD;
+  --green: #3FAD27;
+  --green-light: #27ad6a;
+  --red: 	#ad273f;
+  --background: #EBEBEB;
+  --shapes: #FFFFFF;
+  --text-title: #3D3D4D;
+  --text: #1C1C29;
+  --text-light: #A09CB1;
+}
+
+html[data-theme='dark'] {
+  --blue: #2c4cdb;
+  --green: #3FAD27;
+  --green-light: #27ad6a;
+  --red: 	#d12444;
+  --background: #ffffff;
+  --shapes: #181717;
+  --text-title: #c7c7e4;
+  --text: #c6c6e4;
+  --text-light: #534e68;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px "Poppins", Arial, sans-serif;
+  color: #121214;
+}
+
+input, textarea {
+  font-family: "Poppins";
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+}
+
+button, .checkmark {
+  cursor: pointer;
+}
